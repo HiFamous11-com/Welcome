@@ -1,0 +1,39 @@
+iframe {
+    background-image: url("https://p.kindpng.com/picc/s/305-3056722_blank-monitor-png-clipart-png-download-transparent-png.png");
+    background-position:center;
+    border-radius: 5px;
+}
+
+iframe {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -300%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+}
+}
+
+img {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -300%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+}
+}
