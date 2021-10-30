@@ -1,0 +1,36 @@
+@import url("animation.css");
+main {
+    padding: 1vh 9vw;
+  }
+  
+  nav {
+    background-image: url(https://wallpaperaccess.com/full/2109997.jpg);
+    height: 1rem;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  nav * * {
+    margin: 0.5rem;
+  }
+  
+  nav .nav-right {
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+  }
+  
+  nav .nav-left {
+    text-align: left;
+    position: absolute;
+    left: 1rem;
+  }
+  
+  nav a {
+    color: red;
+  }
+  
+  nav a:hover {
+    color: rgb(60, 255, 0);
+    text-decoration: none;
+  }
